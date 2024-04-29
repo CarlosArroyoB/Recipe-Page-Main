@@ -1,0 +1,75 @@
+
+body{
+ display: flex;
+ justify-content: center;
+ background-color: hsl(30, 54%, 90%)   
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    background-color:  hsl(0, 0%, 100%);
+    margin: 2em;
+    width: 36em;
+    padding: 1em;
+
+    border-radius: 1em;
+    color:  hsl(24, 5%, 18%);
+}
+img{
+    display: flex;
+    border-radius: 0.5em;
+    width: 100%;
+    height: 100%;
+    
+}
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.8em;
+    
+}
+div.instrucciones{
+    display: flex;
+    flex-direction: column;
+
+}
+.tiempoPreparacion{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 1em;
+    height: 11em;
+    margin: 1em;
+}
+.tiempoPreparacion h2{
+    display: flex;
+    padding-left: 20px;
+    color:hsl(332, 51%, 32%);
+    flex-direction: column;
+    margin: 1em;
+}
+
+ol li::marker{ /* marker se usa para solamente señalar los numeros de la lista ordenada o los circulos de la desordenada */
+    color: hsl(14, 45%, 36%);
+}
+ul li::marker{
+    color: hsl(14, 45%, 36%);
+}
+div.uList ul li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+hr{
+    display: flex;
+    margin: 0.5em;
+}
+.nutritionInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0em 2em;
+}
+h3{
+    color: hsl(14, 45%, 36%)
+}
